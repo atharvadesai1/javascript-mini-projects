@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb_project</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .main{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .button{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .btn-box{
+            position: relative;
+            left: 20%;
+        }
+
+        #btn{
+            padding: 18px 30px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color:chartreuse;
+            border-radius: 40px;
+            font-size: 25px;
+            text-align: center;
+            font-weight: bolder;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img id="bulb" src="images/bulb-off.png" alt="bulb" width="300px"><br>
+        <div class="btn-box">
+            <button id="btn">Switch On</button>
+        </div>
+    </div>
+
+    <script>
+        let buttn = document.getElementById('btn');
+        let bulbs = document.getElementById('bulb');
+        buttn.addEventListener('click',brightIt);
+
+        function brightIt(){
+            if(buttn.textContent.includes('On')){
+                buttn.textContent= 'Switch Off';
+                buttn.style.backgroundColor = "red";
+                buttn.style.color = "white";
+                bulbs.src = "images/bulb-on.png"
+            }
+            else{
+                buttn.textContent= 'Switch On';
+                buttn.style.backgroundColor = "chartreuse";
+                buttn.style.color = "black";
+                bulbs.src = "images/bulb-off.png"
+            }
+        }
+    </script>
+</body>
+</html>
