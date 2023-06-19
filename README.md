@@ -7,6 +7,6 @@
 * bulb.js
    
 ## 2. CRUD Applications: 
-   ### Consists of Adding, Editing and Removing operations wrapped within list elements.
+   ### Consists of Adding, Editing and Removing operations wrapped within list elements. 
 * crud_add_remove.html
 * crud_add_remove.js
