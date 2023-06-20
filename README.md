@@ -2,11 +2,17 @@
 
 
 ## 1. Bulb on-off:
-   ### Simple eventListner('click) mechanism and applied image transform application.
+   #### Simple eventListner('click) mechanism and applied image transform application.
 * bulb.html
 * bulb.js
    
-## 2. CRUD Applications: 
-   ### Consists of Adding, Editing and Removing operations wrapped within list elements. 
+## 2. CRUD Applications : 
+   #### Consists of Adding, Editing and Removing operations wrapped within list elements. 
 * crud_add_remove.html
 * crud_add_remove.js
+
+## 3. Image Window Slider (Cars): 
+   #### This program consists of a sliding image window using javascript where multiple car images are taken and segregated into different categories based on their brand. Brands included here are -> (Maruti Suzuki, Mercedes, BMW & Tata Motors)
+* image_slide.html
+* image_slide.js
+  
