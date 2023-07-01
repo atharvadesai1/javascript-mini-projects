@@ -1,0 +1,85 @@
+@font-face {
+    font-family: header1;
+    src: url("/font-styles/Kolligio.ttf");
+}
+
+.rps{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%); 
+   border: 10px rebeccapurple solid;
+   border-radius: 20px;
+   padding: 20px;
+}
+
+.choices{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.choices>h3{
+    color: rgb(77, 67, 67);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    font-family: header1;
+    color: rgb(209, 18, 18);
+    text-shadow: 2px 0px rgb(19, 19, 1);
+    font-size: 40px;
+    font-stretch: expanded;
+}
+.rps>h1,p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.rps>img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+}
+
+#restart{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: greenyellow !important;
+}
+#restart:hover{
+    background-color: rgb(221, 251, 177) !important;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(107, 239, 239);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background-color: rgb(178, 240, 240);
+    transition: 0.1;
+}
+
+#current_status{
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#final_result{
+    text-align: center;
+    font-size: 25px;
+}
+

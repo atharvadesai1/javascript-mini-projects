@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rps</title>
+    <link rel="stylesheet" href="stone_paper_scissor.css">
+</head>
+<body>
+    <div class="rps">
+        <img src="images/rps.png" alt="" width="300px" height="170px">
+        <h1>Game Zone</h1>
+        <p>(Score 5 points before the computer to win this game)</p>
+        <div class="choices">
+            <h3>Your Choice : <span id="player_choice"></span></h3>
+            <h3>Computers's Choice : <span id="computer_choice"></span></h3>
+            <h3>Your Score : <span id="display_player_score">0</span></h3>
+            <h3>Computer's Score : <span id="display_computer_score">0</span></h3>
+        </div>
+            <h3 id="current_status"></h3><br>
+        <div class="buttons">
+            <button id="stone" onclick="stonePress()">Stone</button>
+            <button id="paper" onclick="paperPress()">Paper</button>
+            <button id="scissor" onclick="scissorPress()">Scissor</button>
+        </div><br>
+        <button id="restart" onclick="restartGame()">Replay</button>
+        <h3 id="final_result"></h3>
+    </div>
+
+    <script src="stone_paper_scissor.js"></script>
+</body>
+</html>
