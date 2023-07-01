@@ -16,7 +16,7 @@
 * image_slide.html
 * image_slide.js
 
-## 3.Stone Paper Scissor Game: 
+## 4. Stone Paper Scissor Game: 
    #### In this game user can choose between rock, paper, scissor and then the computer will generate randomly between the three using Math.random() and one that will score 5 points first will win this game 
 * stone_paper_scissor.html 
 * stone_paper_scissor.css 
